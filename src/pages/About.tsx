@@ -1,6 +1,7 @@
 import React from 'react'
 import Logos from '../components/Logos'
 import { BackgroundGradientAnimation } from "../components/AuBackground"
+import avatar from "../assets/avatar.png"
 import { motion } from "framer-motion";
 
 
@@ -22,7 +23,7 @@ const About = () => {
         <div className='absolute  items-center justify-center    p-2'>
         <div className="flex flex-col lg:flex-row justify-between items-center gap-2 lg:mt-12 ">
           <div className='lg:flex flex-col  w-full lg:w-4/5 h-full lg:h-full items-center justify-center lg:mr-24'>
-            <img className=" w-[140px] h-[150px] lg:w-[220px] lg:h-[210px]   items-center justify-center rounded-full ml-44 lg:ml-0 mt-4 lg:mt-0" src="/avatar.png" alt="image of quentin" />
+            <img className=" w-[140px] h-[150px] lg:w-[220px] lg:h-[210px]   items-center justify-center rounded-md ml-44 lg:ml-0 mt-4 lg:mt-0" src={avatar} alt="image of quentin" />
             <div className=" mt-4">
               <Logos />
             </div>

@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import ListAltIcon from '@mui/icons-material/ListAlt';
+import logo from "../assets/logo.png"
 import { motion } from "framer-motion";
 
 
@@ -20,7 +21,7 @@ function Navbar() {
 
         <div className="space-x-[500px] md:gap-[600px] lg:space-x-[1100px]  items-start ">
           <div className=" items-center m fixed">
-            <img width={150} height={150} className="logoImg" src="/logo.png" alt="react-logo" />
+            <img width={150} height={150} className="logoImg" src={logo} alt="react-logo" />
           </div>
 
           <div className=" hidden md:flex gap-6 items-center flex-1 justify-center t text-[18px] font-medium cursor-pointer  duration-100 ease-in-out mt-4">
