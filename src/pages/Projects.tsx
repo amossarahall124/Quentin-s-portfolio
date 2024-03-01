@@ -3,7 +3,6 @@ import { ProjectList } from "../helpers/ProjectList";
 import { BackgroundGradientAnimation } from "../components/AuBackground"
 import { motion } from "framer-motion";
 
-import "../styles/Projects.css";
 
 function Projects() {
   return (

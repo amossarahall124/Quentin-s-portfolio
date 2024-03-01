@@ -1,9 +1,7 @@
-import Proj1 from "../assets/proj1.jpg";
-import Proj2 from "../assets/proj2.jpg";
-import Proj3 from "../assets/proj3.webp";
-import Proj4 from "../assets/proj4.webp";
-import Proj5 from "../assets/proj5.jpg";
-import Proj6 from "../assets/proj6.png";
+import Proj1 from "../assets/proj1.png";
+import Proj2 from "../assets/proj2.png";
+import Proj3 from "../assets/proj3.png";
+import Proj4 from "../assets/proj4.png";
 
 export type ProjectTpyes ={
   name: string,
@@ -41,23 +39,10 @@ export const ProjectList = [
   },
   {
     id: 4,
-    name: "Social Media Website",
+    name: "Travel Jamaica site",
     image: Proj4,
-    git : "https://github.com/safak/restaurant-ui",
+    git : "https://github.com/amossarahall124/project-travel",
     skills: "React,Node.js,MySQL,GraphQL",
+    domo: "https://amossarahall124.github.io/pro-travel/",
   },
-  // {
-  //   id: 5,
-  //   name: "Dashboard Visualizer",
-  //   image: Proj5,
-  //   git : "https://github.com/safak/restaurant-ui",
-  //   skills: "JavaScript,HTML,CSS",
-  // },
-  // {
-  //   id:6,
-  //   name: "Mobile Game",
-  //   image: Proj6,
-  //   git : "https://github.com/safak/restaurant-ui",
-  //   skills: "React Native,JavaScript,HTML,CSS",
-  // },
 ];
