@@ -55,8 +55,8 @@ const contacts = () => {
 
           <h1 className=" text-slate-100 text-[38px] lg:text-[48px] mt-28  md:w-4/5 hover:text-blue-100 font-bold text-lato  text-center gap-1  ">Let's chat </h1>
 
-          <div className="flex flex-col gap-8 items-center  bg-main-100 border-slate-100
-          hover:border-blue-100  border-4 shadow-sm p-4 rounded-lg justify-center duration-500 ease-out   ">
+          <div className="flex flex-col gap-8 items-center   bg-transparent md:bg-main-100 border-transparent md:border-slate-100
+          md:hover:border-blue-100 border-4 shadow-sm p-4 rounded-lg justify-center duration-500 ease-out   ">
             <p className=" text-18 text-lato text-main-20 hover:text-blue-100 duration-500 ease-out hover:scale-110">Send me a message </p>
             <form               
               target="_blank"
@@ -68,27 +68,27 @@ const contacts = () => {
                 <div className="borer-2 text-main-500 text-start ">
                   < li className="text-[16px] flex flex-row  gap-4 ">
                     <label className="text-main-20 hover:text-blue-100 hover:scale-110 duration-500 ease-out ">Full Name</label>
-                    <input className="px-4 py-1 rounded-lg bg-main-100 border-2 border-blue-100 text-slate-100" type="text"  {...register("fullName")} />
+                    <input className="px-4 py-1 rounded-lg bg-transparent md:bg-main-100 border-2 border-blue-100 text-slate-100" type="text"  {...register("fullName")} />
                     <p className="error text-red-800 font-bold ">{errors.fullName?.message}</p>
                   </li>
                 </div>
                 <li className="borer-2 mr-4 text-main-500 text-start text-[16px] flex flex-row gap-4 ">
                   <label className="text-main-20 hover:text-blue-100 hover:scale-110 duration-500 ease-out"> Company </label>
-                  <input className="px-4 py-1 rounded-lg placeholder-blue-100 bg-main-100 border-2 border-blue-100 text-slate-100" type="text" placeholder="Optional" {...register("company")} />
+                  <input className="px-4 py-1 rounded-lg placeholder-blue-100 bg-transparent md:bg-main-100 border-2 border-blue-100 text-slate-100" type="text" placeholder="Optional" {...register("company")} />
                 </li>
                 <li className="borer-2 ml-2 text-main-500 text-start text-[16px] flex flex-row gap-6 ">
                   <label className="text-main-20 hover:text-blue-100 hover:scale-110 duration-500 ease-out">Number</label>
-                  <input className="px-4 py-1 rounded-lg bg-main-100 border-2 border-blue-100 text-slate-100" type="number"  {...register("number")} />
+                  <input className="px-4 py-1 rounded-lg bg-transparent md:bg-main-100 border-2 border-blue-100 text-slate-100" type="number"  {...register("number")} />
 
                 </li>
                 <li className="borer-2 ml-4 text-main-500 text-start text-[16px] flex flex-row gap-8">
                   <label   className="text-main-20 hover:text-blue-100 hover:scale-110 duration-500 ease-out">Email</label>
-                  <input className="px-4 py-1 rounded-lg placeholder-blue-100 text-slate-100 bg-main-100 border-2 border-blue-100" type="email" placeholder="johnsith@gmail.com" {...register("email")} />
+                  <input className="px-4 py-1 rounded-lg placeholder-blue-100 text-slate-100 bg-transparent md:bg-main-100 border-2 border-blue-100" type="email" placeholder="johnsith@gmail.com" {...register("email")} />
                   <p className="error text-red-800 font-bold ">{errors.email?.message}</p>
                 </li>
                 <li className="borer-2 ml-2 text-main-500 text-start text-[16px] flex flex-row gap-4">
                   <label className="text-main-20 hover:text-blue-100 hover:scale-110 duration-500 ease-out"> Message</label>
-                  <input className="px-10 py-12 rounded-lg placeholder-blue-100 -text-start bg-main-100 border-2 border-blue-100 text-slate-100 " type="text" placeholder="Optional" {...register("message")} />
+                  <input className="px-10 py-12 rounded-lg placeholder-blue-100 -text-start bg-transparent md:bg-main-100 border-2 border-blue-100 text-slate-100 " type="text" placeholder="Optional" {...register("message")} />
                 </li>
               </ul>
               <div className="flex flex-col items-center justify-center mt-4">

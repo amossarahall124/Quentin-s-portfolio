@@ -19,7 +19,7 @@ function Navbar() {
     <div className="  ">
       <div className="w-full md:w-full bg-transparent p-4 rounded-2xl flex flex-row  justify-between items- z-50 fixed inset-x-0 top-6">
 
-        <div className="space-x-[500px] md:gap-[600px] lg:space-x-[1100px]  items-start ">
+        <div className="space-x-[380px] md:gap-[600px] lg:space-x-[1100px]  items-start ">
           <div className=" items-center m fixed">
             <img width={150} height={150} className="logoImg" src={logo} alt="react-logo" />
           </div>
@@ -35,7 +35,7 @@ function Navbar() {
             onClick={() => {
               setExpandNavbar(!expandNavbar);
             }}>
-            <ListAltIcon width={100} height={100} className="w-[450px] h-[250px]  text-slate-100 hover:text-blue-100" />
+            <ListAltIcon width={100} height={100} className="w-[450px] h-[450px]  text-slate-100 hover:text-blue-100 " />
           </div>
 
           <div className="block md:hidden ml-auto cursor-pointer"
