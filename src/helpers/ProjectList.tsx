@@ -19,7 +19,7 @@ export const ProjectList = [
     image: Proj1,
     git : "https://github.com/amossarahall124/evolve-fitness-gym",
     skills: "React.ts, HTML, tailwind CSS",
-    domo: "https://amossarahall124.github.io/evolve-fitness-gym/",
+    domo: "https://evolve-fitness-gym.vercel.app/",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const ProjectList = [
     image: Proj2,
     git : "https://github.com/amossarahall124/food-ordering",
     skills: "React,Node.js,tailwind",
-    domo: "https://amossarahall124.github.io/food-ordering/",
+    domo: "https://food-ordering-weld.vercel.app/",
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ export const ProjectList = [
     image: Proj3,
     git : "https://github.com/amossarahall124/web-service",
     skills: "React,Node.js,MongoDB,SpotifyAPI",
-    domo: "https://amossarahall124.github.io/web-service/",
+    domo: "https://web-service-psi.vercel.app/",
   },
   {
     id: 4,
@@ -43,6 +43,6 @@ export const ProjectList = [
     image: Proj4,
     git : "https://github.com/amossarahall124/project-travel",
     skills: "React,Node.js,MySQL,GraphQL",
-    domo: "https://amossarahall124.github.io/pro-travel/",
+    domo: "https://65e603c6e63efb10e903eb1b--spectacular-licorice-43c036.netlify.app/?",
   },
 ];

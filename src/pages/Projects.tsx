@@ -36,7 +36,7 @@ function Projects() {
                       <h1> {project.name} </h1>
                       <div className="flex flex-row items-start justify-between space-x-4 ">
                         <a href={project.git} target="_blank" className="bg-main-100 border-2 px-4 py-2 border-slate-100 hover hover:border-blue-100  hover:scale-110 duration-200 cursor-pointer shadow-md rounded-sm">GitHub</a>
-                        <a href={project.git} target="_blank" className="bg-slate-100 border-2 px-4 py-2  text-main-100 border-main-100 hover hover:border-slate-100 hover:text-slate-100 hover:bg-main-100 hover:scale-110 duration-200 cursor-pointer rounded-md font-bold">Domo</a>
+                        <a href={project.domo} target="_blank" className="bg-slate-100 border-2 px-4 py-2  text-main-100 border-main-100 hover hover:border-slate-100 hover:text-slate-100 hover:bg-main-100 hover:scale-110 duration-200 cursor-pointer rounded-md font-bold">Domo</a>
                       </div>
                     </div>
                   </div>
