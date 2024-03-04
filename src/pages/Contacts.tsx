@@ -50,10 +50,10 @@ const contacts = () => {
                 hidden: { opacity: 0, x: 0 },
                 visible: { opacity: 1, x: 0 },
             }}>
-        < div className="flex flex-col md:flex-col gap-12 md:gap-4 items-center justify-between   " >
+        < div className="flex flex-col md:flex-col gap-4 md:gap-4 items-center justify-between   " >
 
 
-          <h1 className=" text-slate-100 text-[38px] lg:text-[48px] mt-28  md:w-4/5 hover:text-blue-100 font-bold text-lato  text-center gap-1  ">Let's chat </h1>
+          <h1 className=" text-slate-100 text-[38px] lg:text-[48px] mt-36  md:w-4/5 hover:text-blue-100 font-bold text-lato  text-center gap-1  ">Let's chat </h1>
 
           <div className="flex flex-col gap-8 items-center   bg-transparent md:bg-main-100 border-transparent md:border-slate-100
           md:hover:border-blue-100 border-4 shadow-sm p-4 rounded-lg justify-center duration-500 ease-out   ">

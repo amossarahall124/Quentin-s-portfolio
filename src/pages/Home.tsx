@@ -28,7 +28,7 @@ function Home() {
               hidden: { opacity: 0, x: 0 },
               visible: { opacity: 1, x: 0 },
           }}>
-      <div className="w-screen h-4/5  scrollbar-hide items-center mt-32  mr-40 lg:mt-40 text-slate-50 box-border absolute">
+      <div className="w-screen h-4/5  scrollbar-hide items-center mt-64  mr-40 lg:mt-40 text-slate-50 box-border absolute">
         <div className="flex flex-col md:flex-row  justify-around md:justify-center lg:gap-[150px] md:gap-[50px] items-center">
           <div className="flex flex-col justify-center gap-4 p-1">
             <div className="block w-full [h-50]  bg-clip-text bg-gradient-to-tr from-blue-950 via-blue-100 to-slate-500">
@@ -43,7 +43,7 @@ function Home() {
           {/* <img className=" w-[220px] h-[200px] lg:w-[240px] lg:h-[220px]   items-center rounded-full " src="/avatar.png" alt="image of quentin" /> */}
         </div>
         <div className="absolute mt-16 lg:mt-24 lg:ml w-full   flex flex-col items-center md:item-start justify-center gap-2 ">
-        <BackgroundGradient className="rounded-[18px] max-w-sm p-4 md:p-4 bg-white dark:bg-zinc-900">
+        <BackgroundGradient className="rounded-[18px] max-w-sm p-4 md:p-4 bg-main-100 dark:bg-zinc-900">
           <button onClick={()=>{navigate("/Contacts")}} className="" >
             <p className="text-[18px] text-slate-200 hover:text-blue-100  " >Contact Me </p>
           </button>

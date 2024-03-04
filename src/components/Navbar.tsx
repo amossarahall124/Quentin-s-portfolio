@@ -19,7 +19,7 @@ function Navbar() {
     <div className="  ">
       <div className="w-full md:w-full bg-transparent p-4 rounded-2xl flex flex-row  justify-between items- z-50 fixed inset-x-0 top-6">
 
-        <div className="space-x-[380px] md:gap-[600px] lg:space-x-[1100px]  items-start ">
+        <div className="space-x-[350px] md:gap-[500px] lg:space-x-[1100px]  items-start ">
           <div className=" items-center m fixed">
             <img width={150} height={150} className="logoImg" src={logo} alt="react-logo" />
           </div>

@@ -19,11 +19,11 @@ const About = () => {
             hidden: { opacity: 0, x: 0 },
             visible: { opacity: 1, x: 0 },
         }}>
-      <div className='bg-main-100 max-w-[1500px] max-h-[1000px] w-[500px] h-[600px] lg:w-[1100px] lg:h-[580px] mt-40 ml-20 lg:mt-40 md:ml-24 md:w-[600px] lg:ml-72 border-4 border-slate-100 hover:border-blue-100 shadow-md duration-500 ease-out  relative '> 
+      <div className='bg-main-100 max-w-[1500px] max-h-[1000px] w-[440px] h-[600px] lg:w-[1100px] lg:h-[580px] mt-40 ml-16 lg:mt-40 md:ml-24 md:w-[600px] lg:ml-72 border-4 border-slate-100 hover:border-blue-100 shadow-md duration-500 ease-out  relative '> 
         <div className='absolute  items-center justify-center    p-2'>
         <div className="flex flex-col lg:flex-row justify-between items-center gap-2 lg:mt-12 ">
           <div className='lg:flex flex-col  w-full lg:w-4/5 h-full lg:h-full items-center justify-center lg:mr-24'>
-            <img className=" w-[140px] h-[150px] lg:w-[220px] lg:h-[210px]   items-center justify-center rounded-md ml-44 lg:ml-0 mt-4 lg:mt-0" src={avatar} alt="image of quentin" />
+            <img className=" w-[140px] h-[150px] lg:w-[220px] lg:h-[210px]   items-center justify-center rounded-md ml-36 lg:ml-0 mt-4 lg:mt-0" src={avatar} alt="image of quentin" />
             <div className=" mt-4">
               <Logos />
             </div>
