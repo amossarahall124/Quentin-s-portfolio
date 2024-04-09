@@ -39,7 +39,7 @@ const contacts = () => {
   return (
     <BackgroundGradientAnimation>
     <div className=" ">
-      <div className="w-full  h-full items-center overflow-hidden text-slate-50 absolute z-10 inset-0   ">
+      <div className="w-full  h-full items-center overflow-hidden text-slate-50 absolute z-10 inset-0 top-8  ">
       <motion.div
             className=""
             initial="hidden"

@@ -8,6 +8,7 @@ module.exports = {
       fontFamily: {
         'lato': ['lato', 'sans-serif']
       },
+
       colors: {
         accent: {
           1: "hsl(251,37,118)",
@@ -69,6 +70,18 @@ module.exports = {
             opacity: 0,
           },
         },
+      },
+      screens: {
+        'sm': '640px',
+
+        'md': '768px',
+
+        'lg': '1024px',
+
+        'xl': '1280px',
+
+        '2xl': '1536px',
+
       },
 
     },

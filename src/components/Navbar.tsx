@@ -1,12 +1,16 @@
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import ListAltIcon from '@mui/icons-material/ListAlt';
 import logo from "../assets/logo.png"
 import { motion } from "framer-motion";
+import Lottie from "lottie-react";
 
+import GarlandFlags from '../lotties/garland-flags.json';
 
 function Navbar() {
+
+
   const [expandNavbar, setExpandNavbar] = useState(false);
 
   const location = useLocation();
@@ -15,27 +19,28 @@ function Navbar() {
     setExpandNavbar(false);
   }, [location]);
 
+
   return (
     <div className="  ">
-      <div className="w-full md:w-full bg-transparent p-4 rounded-2xl flex flex-row  justify-between items- z-50 fixed inset-x-0 top-6">
+      <div className="w-full md:w-full bg-transparent p-4 rounded-2xl flex flex-row  justify-between items-center z-50 fixed  top-6 m-0">
 
-        <div className="space-x-[350px] md:gap-[500px] lg:space-x-[1100px]  items-start ">
-          <div className=" items-center m fixed">
-            <img width={150} height={150} className="logoImg" src={logo} alt="react-logo" />
-          </div>
+        <div className="flex flex-row justify-center   items-center  space-x-[320px] md:space-x-[270px] lg:space-x-[500px] ">
 
-          <div className=" hidden md:flex gap-6 items-center flex-1 justify-center t text-[18px] font-medium cursor-pointer  duration-100 ease-in-out mt-4">
+          <div className="w-[180px] h-[130px] rounded-xl border-4 border-white lg:ml-60 ">  <Lottie animationData={GarlandFlags} loop={true} /> </div>
+
+          
+          <div className=" hidden md:flex gap-6 items-center flex-1 justify-center t text-[18px] font-medium cursor-pointer  duration-100 ease-in-out ">
             <Link to="/" className="hover:text-blue-100 hover:scale-125"> Home </Link>
             <Link to="/About" className="hover:text-blue-100 hover:scale-125"> About </Link>
             <Link to="/Projects" className="hover:text-blue-100 hover:scale-125"> Projects </Link>
             <Link to="/Experience" className="hover:text-blue-100 hover:scale-125"> Experience </Link>
             <Link to="/Contacts" className="hover:text-blue-100 hover:scale-125"> Contacts </Link>
           </div>
-          <div className=" lg:hidden bg-transparent border-none text-blue-100 ml-12 cursor-pointer sm:ml-28 mt-8"
+          <div className=" md:hidden lg:hidden bg-transparent border-none text-blue-100 ml-12 cursor-pointer sm:ml-28 mt-8"
             onClick={() => {
               setExpandNavbar(!expandNavbar);
             }}>
-            <ListAltIcon width={100} height={100} className="w-[450px] h-[450px]  text-slate-100 hover:text-blue-100 " />
+            <ListAltIcon  className="w-[650px] h-[650px]  text-slate-100 hover:text-blue-100 " />
           </div>
 
           <div className="block md:hidden ml-auto cursor-pointer"
@@ -53,6 +58,7 @@ function Navbar() {
         </div>
       </div>
     </div>
+    // </div>
   );
 }
 

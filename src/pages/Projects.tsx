@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 function Projects() {
   return (
     <BackgroundGradientAnimation>
-      <div className="  w-screen overflow-x-scroll scrollbar-hide no-scrollbar min-h-screen  items-center Lg:mt-36   pb-20 absolute z-10 ">
+      <div className="  w-screen overflow-x-scroll scrollbar-hide no-scrollbar min-h-screen  items-center Lg:mt-36 mt-8  pb-20 absolute z-10 ">
       <motion.div
           className=""
           initial="hidden"
