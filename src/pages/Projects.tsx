@@ -18,7 +18,7 @@ function Projects() {
               hidden: { opacity: 0, x: 0 },
               visible: { opacity: 1, x: 0 },
           }}>
-        <div className="bg-main-100 max-w-[1500px] max-h-[1000px] w-[550px] h-[600px] lg:w-[1200px] lg:h-[580px] mt-40 ml-12 lg:mt-40 lg:ml-72 border-4 border-slate-100 hover:border-blue-100 shadow-sm duration-500 ease-out  relative ">
+        <div className="bg-main-100 max-w-[1500px] max-h-[1000px] w-[550px] h-[600px] md:w-[800px] md:h-[580px] lg:w-[1200px] lg:h-[580px] mt-40 ml-12 lg:mt-40 lg:ml-72 border-4 border-slate-100 hover:border-blue-100 shadow-sm duration-500 ease-out  relative ">
           <div className="block w-full [h-50]  bg-clip-text bg-gradient-to-tr from-blue-950 via-blue-100 to-slate-500 ">
             <h1 className=" text-transparent text-[30px] 
           lg:text-[50px] font-extrabold text-lato italic text-center mt-2 ">My Projects </h1>
