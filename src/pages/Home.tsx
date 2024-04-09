@@ -28,7 +28,7 @@ function Home() {
               hidden: { opacity: 0, x: 0 },
               visible: { opacity: 1, x: 0 },
           }}>
-      <div className="w-screen h-4/5  scrollbar-hide items-center mt-64  mr-40 lg:mt-40 text-slate-50 box-border absolute">
+      <div className="w-screen h-4/5  scrollbar-hide items-center mt-48  mr-40 lg:mt-40 text-slate-50 box-border absolute">
         <div className="flex flex-col md:flex-row  justify-around md:justify-center lg:gap-[150px] md:gap-[50px] items-center">
           <div className="flex flex-col justify-center gap-4 p-1">
             <div className="block w-full [h-50]  bg-clip-text bg-gradient-to-tr from-blue-950 via-blue-100 to-slate-500">
