@@ -4,9 +4,9 @@ import { Link, useLocation } from "react-router-dom";
 import ListAltIcon from '@mui/icons-material/ListAlt';
 import logo from "../assets/logo.png"
 import { motion } from "framer-motion";
-import Lottie from "lottie-react";
+// import Lottie from "lottie-react";
 
-import GarlandFlags from '../lotties/garland-flags.json';
+// import GarlandFlags from '../lotties/garland-flags.json';
 
 function Navbar() {
 
@@ -25,9 +25,11 @@ function Navbar() {
       <div className="w-full md:w-full bg-transparent p-4 rounded-2xl flex flex-row  justify-center items-center z-50 fixed  top-0 right-0 left-0 ">
 
         <div className="flex flex-row justify-center mt-8   items-center  ">
-          <div className="w-full gap-[180px] md:gap-[300px] lg:gap-[700px] flex items-center justify-center "> 
+        <div className="w-full sm:ml-auto md:ml-auto  lg:center  justify-center "> 
 
-            <div className=" w-[100px] h-[72px] md:w-[140px] md:h-[100px] lg:w-[180px] lg:h-[130px] rounded-xl border-4 border-white l">  <Lottie animationData={GarlandFlags} loop={true} /> </div>
+          {/* <div className="w-full gap-[180px] md:gap-[300px] lg:gap-[700px] flex items-center justify-center ">  */}
+{/* 
+            <div className="  w-[100px] h-[72px] md:w-[140px] md:h-[100px] lg:w-[180px] lg:h-[130px] rounded-xl border-4 border-white l">  <Lottie animationData={GarlandFlags} loop={true} /> </div> */}
 
           
             <div className=" hidden md:flex gap-6 items-center flex-1 justify-center t text-[18px] font-medium cursor-pointer  duration-100 ease-in-out ">
@@ -44,7 +46,7 @@ function Navbar() {
               <ListAltIcon  className="w-[650px] h-[650px]  text-slate-100 hover:text-blue-100 " />
             </div>
 
-            <div className="block md:hidden ml-auto cursor-pointer"
+            <div className="block md:hidden    only:cursor-pointer"
 
                 >
               {expandNavbar && (
